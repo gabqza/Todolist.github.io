@@ -1,0 +1,54 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: bisque;
+  }
+  h2{
+    font-size: medium;  }
+  /* Estilos del campo de entrada */
+  input[type="text"] {
+    width: 200px;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos del botón */
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Estilos de la lista de tareas */
+  ul {
+    list-style-type: none;
+    padding: 0;
+    width: 125px;
+  }
+  
+  ul li {
+    display: flex;
+    margin-bottom: 10px; 
+    justify-content: space-between;
+
+  }
+  
+  /* Estilos para agregar un poco de interacción a los elementos */
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  button:active {
+    background-color: #3e6e8e;
+  }
+  
+  li:hover {
+    background-color: #f5f5f5;
+  }
+  
